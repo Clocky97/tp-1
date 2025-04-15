@@ -3,6 +3,8 @@ body{
     background-color: #6930c3;
 }
 .navegar {
+    border: 3px white;
+    border-style: dashed;
     background-color: #7400b8;
     display: flex;
     justify-content: space-between;
@@ -25,13 +27,15 @@ body{
     border-radius: 16px;
     padding: 16px;
     box-shadow: inset 0px 0px 20px #48bfe3;
-    transition:  all 2s ease-in-out;
+    transition:  all 0.5s ease-in-out;
 }
 .links li:hover{
-    box-shadow: 0px 0px 20px #48bfe3;
-    transition:  all 2s ease-in-out;
+    box-shadow: inset 0px 0px 0 transparent;
+    transition:  all 0.5s ease-in-out;
 }
 .imagen {
+    border: 3px white;
+    border-style: dashed;
     border-radius: 16px;
     height: 30%;
     width: 30%;
@@ -46,7 +50,6 @@ a {
     height: 40%;
     width: 40%;
     margin: 0px 150px;
-    fill: red;
     filter: drop-shadow(0px 0px 30px #48bfe3);
 }
 .imagenes{
@@ -60,6 +63,42 @@ a {
     left: 50%;
     top: 100px;
 }
+.texto{
+    color: white;
+    font-family: Playwrite CU;
+    position: absolute;
+    bottom: 20px; 
+}
 .main{
     color: #48bfe3;
+}
+.sobremi{
+    margin-left: 50%;
+    color: white;
+}
+.textosm{
+    color: #48bfe3;
+    font-family: Playwrite CU;
+}
+.atras{
+    background-color: #5e60ce;
+    margin: 0 16px;
+    list-style: none;
+    border: 2px solid #5390d9;
+    border-radius: 16px;
+    padding: 16px;
+    box-shadow: inset 0px 0px 20px #48bfe3;
+    transition:  all 0.5s ease-in-out;
+}
+.atras:hover{
+    box-shadow: inset 0px 0px 0 transparent;
+    transition:  all 0.5s ease-in-out;
+}
+.tabla{
+    background-color: #7400b8;
+    border-radius: 16px;
+    padding: 16px;
+    font-family: Playwrite CU;
+    box-shadow: inset 0px 0px 20px white;
+    color: white;
 }
